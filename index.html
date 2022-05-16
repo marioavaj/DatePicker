@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="Sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Date picker</title>
+</head>
+<body>
+<div id="datePickerWrapper">
+   <label for="datumNarodenia">Zadaj dátum narodenia:</label>
+    <input type="date" id="datumNarodenia" name="datumNarodenia" min="1973-01-01" max="2022-12-31" >
+   <button id="analyseButton" onclick="dateAnalise()">Analyzuj</button>
+</div>
+
+    <script src="script.js"></script>
+    <script src="moment-with-locales.js"></script>
+</body>
+</html>

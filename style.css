@@ -1,0 +1,54 @@
+body{
+    margin-top: 10%;
+    margin-right: 17%;
+    display:flex;
+    flex-direction: row ;
+    justify-content:flex-end;
+    background-image: url(date-of-birth-2435351_1920.jpg);
+    background-size: cover;
+    
+}
+
+#datePickerWrapper{
+
+width: 25%;
+display: flex;
+flex-direction: column;
+background-color: rgba(186, 84, 20, 0.995);
+margin: 1em;
+padding: 1em;
+border-radius: 1em 1em 0 0 ;
+box-shadow: 7px 9px 13px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 9px 13px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 9px 13px 4px rgba(0,0,0,0.75);
+
+}
+label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0.5em;
+    text-transform:capitalize;
+    color: honeydew;
+}
+
+button{
+    margin: 0.8em;
+    background-color: rgb(3, 160, 129);
+    height: 30px;
+    border: none;
+    color: cornsilk;  
+}
+
+button:hover{
+    cursor:pointer;
+    transform: scale(1.03);
+}
+
+input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    font-size: 1.5em;
+    color:rgb(6, 6, 6);
+    background-color:rgba(193, 244, 246, 0.89);
+    cursor: pointer;
+}
