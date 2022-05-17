@@ -2,8 +2,8 @@ body{
     margin-top: 10%;
     margin-right: 17%;
     display:flex;
-    flex-direction: row ;
-    justify-content:flex-end;
+    flex-direction: column ;
+    align-items: flex-end;
     background-image: url(date-of-birth-2435351_1920.jpg);
     background-size: cover;
     
@@ -51,4 +51,16 @@ input{
     color:rgb(6, 6, 6);
     background-color:rgba(193, 244, 246, 0.89);
     cursor: pointer;
+}
+
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    width: 45%;
+    margin-top: 1em;
+    text-align:end;
+    color: crimson;
+    font-weight: 600;
+       border-radius: 5px;
+       text-shadow: 4px 4px 7px rgb(51, 51, 51);
 }
